@@ -1,4 +1,4 @@
-# Maintenance Knowledge Agent
+Maintenance Knowledge Agent
 
 A chat assistant for garage staff. A mechanic or driver asks a question such as *"What is the brake inspection interval for a tractor unit?"* or *"What do I do if I find a hydraulic leak?"*. The agent searches the maintenance documents, answers in plain language, and names the document and section the answer came from. If the documents do not cover the question, it says so and does not guess.
 
@@ -128,6 +128,4 @@ Copy the final numbers from the Summary sheet of `tracking/test-tracker.xlsx`. L
 - A second, larger test set written by someone else
 - Reviewer workflow for the unanswered-questions list (add the missing document, re-test)
 
-## Licence
 
-MIT. See `LICENSE`.
