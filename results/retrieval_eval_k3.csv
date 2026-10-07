@@ -1,0 +1,21 @@
+id,category,should_refuse,top_score,top3,section_hit,doc_hit,refused_by_threshold,refusal_correct
+Q01,direct,False,0.363,DOC-02 s2 (0.36) | DOC-02 s8 (0.15) | DOC-02 s5 (0.13),True,True,False,True
+Q02,direct,False,0.35,DOC-05 s7 (0.35) | DOC-05 s1 (0.34) | DOC-05 s6 (0.18),False,True,False,True
+Q03,direct,False,0.351,DOC-03 s1 (0.35) | DOC-03 s3 (0.22) | DOC-08 s4 (0.18),False,True,False,True
+Q04,direct,False,0.444,DOC-04 s3 (0.44) | DOC-04 s1 (0.30) | DOC-04 s2 (0.07),True,True,False,True
+Q05,direct,False,0.193,DOC-06 s4 (0.19) | DOC-10 s6 (0.00) | DOC-10 s7 (0.00),True,True,False,True
+Q06,direct,False,0.361,DOC-01 s5 (0.36) | DOC-02 s5 (0.14) | DOC-01 s1 (0.12),True,True,False,True
+Q07,direct,False,0.252,DOC-07 s6 (0.25) | DOC-07 s3 (0.16) | DOC-07 s5 (0.16),True,True,False,True
+Q08,direct,False,0.346,DOC-09 s1 (0.35) | DOC-09 s3 (0.24) | DOC-09 s7 (0.12),True,True,False,True
+Q09,direct,False,0.265,DOC-08 s2 (0.27) | DOC-02 s6 (0.06) | DOC-03 s4 (0.06),True,True,False,True
+Q10,direct,False,0.304,DOC-10 s2 (0.30) | DOC-10 s3 (0.08) | DOC-10 s7 (0.06),True,True,False,True
+Q11,multi_doc,False,0.085,DOC-04 s6 (0.09) | DOC-02 s2 (0.08) | DOC-08 s5 (0.08),False,True,False,True
+Q12,multi_doc,False,0.237,DOC-02 s5 (0.24) | DOC-07 s3 (0.19) | DOC-01 s5 (0.18),True,True,False,True
+Q13,multi_doc,False,0.208,DOC-01 s6 (0.21) | DOC-05 s7 (0.18) | DOC-01 s1 (0.18),False,True,False,True
+Q14,multi_doc,False,0.354,DOC-03 s1 (0.35) | DOC-09 s7 (0.35) | DOC-03 s5 (0.28),True,True,False,True
+Q15,vague,False,0.18,DOC-01 s4 (0.18) | DOC-02 s7 (0.10) | DOC-02 s3 (0.09),True,True,False,True
+Q16,vague,False,0.116,DOC-04 s1 (0.12) | DOC-05 s6 (0.11) | DOC-04 s6 (0.11),False,True,False,True
+Q17,vague,False,0.155,DOC-10 s4 (0.16) | DOC-06 s3 (0.11) | DOC-10 s6 (0.00),False,False,False,True
+Q18,out_of_scope,True,0.132,DOC-08 s6 (0.13) | DOC-03 s6 (0.12) | DOC-01 s5 (0.12),True,True,False,False
+Q19,out_of_scope,True,0.198,DOC-04 s5 (0.20) | DOC-10 s6 (0.19) | DOC-04 s3 (0.16),True,True,False,False
+Q20,out_of_scope,True,0.17,DOC-03 s1 (0.17) | DOC-03 s3 (0.14) | DOC-03 s4 (0.12),True,True,False,False
