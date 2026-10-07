@@ -1,8 +1,8 @@
 Maintenance Knowledge Agent
 
-A chat assistant for garage staff. A mechanic or driver asks a question such as *"What is the brake inspection interval for a tractor unit?"* or *"What do I do if I find a hydraulic leak?"*. The agent searches the maintenance documents, answers in plain language, and names the document and section the answer came from. If the documents do not cover the question, it says so and does not guess.
+A chat assistant for garage staff. A mechanic or driver asks a question such as "What is the brake inspection interval for a tractor unit?" or "What do I do if I find a hydraulic leak?". The agent searches the maintenance documents, answers in plain language, and names the document and section the answer came from. If the documents do not cover the question, it says so and does not guess.
 
-This is **retrieval-grounded** question answering: answers come only from a controlled set of documents, with citations, and "I don't know" is a valid answer.
+This is retrieval-grounded question answering: answers come only from a controlled set of documents, with citations, and "I don't know" is a valid answer.
 
 > All 10 maintenance documents in this repo are original training documents written for this project. Figures in them are illustrative and are **not** official maintenance guidance. No confidential company material is used.
 
